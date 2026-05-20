@@ -50,14 +50,19 @@ Estas funciones se controlan mediante un par de perillas aliadas (potenciómetro
 
 ⚙️ Capa Normal (Con Arpegiador ENCENDIDO): Se transforman en Modificadores Estructurales. En lugar de cambiar el acorde base, reconfiguran matemáticamente las distancias entre los osciladores en tiempo real, añadiendo tensiones armónicas exóticas o variaciones melódicas sin que tengas que cambiar la escala.
 
-5. CLOCK INPUT (Entrada de Reloj)/ INTERVALO V/C :
+      ///// INPUTS/////
+      
+5. CLOCK INPUT (Entrada de Reloj)/ INTERVALO V/C A04:
 Es la entrada encargada de darle el pulso y la velocidad al arpegiador. Cada vez que esta entrada recibe un cambio de voltaje alto (un pulso, un LFO de onda cuadrada o el reloj de una caja de ritmos), el arpegiador avanza al siguiente paso. Esta entrada de clock es compatible con la serie VOlca,
  es la misma entrada que se usa para controlar el potenciometro de INVERSION, pero esta solo se activa cuando entra en modo ARPGG.
+   
+7. V/OCT INPUT (Voltaje por Octava)A07: entrada apta +5v
 
-7. V/OCT INPUT (Voltaje por Octava): entrada apta +5v
-8. CHORD V/C: entrada apta +5v
+8. CHORD V/C A05: entrada apta +5v
+
 9. FUNC D12: Accede a los demas parametros
    
+
    
 Cuando usas el arpegiador en la capa [FUNC], puedes elegir entre 7 ambientes preprogramados que dictarán las notas disponibles:
 Mayor Jónica: 
